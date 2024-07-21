@@ -1,0 +1,18 @@
+# Flutter ve Dart dosyalarını belirleme
+*.dart linguist-language=Dart
+
+# Gereksiz dosyaları dil algılamadan hariç tutma
+*.lock linguist-vendored
+*.yaml linguist-vendored
+*.json linguist-vendored
+*.xml linguist-vendored
+*.gradle linguist-vendored
+*.bat linguist-vendored
+*.sh linguist-vendored
+*.md linguist-vendored
+
+# Dış bağımlılıkları hariç tutma
+android/** linguist-vendored
+ios/** linguist-vendored
+web/** linguist-vendored
+test/** linguist-vendored
